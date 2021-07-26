@@ -457,6 +457,8 @@ div {
         display: flex;
         align-items: baseline;
         justify-content: space-between;
+        padding: 0;
+        margin:0;
     }
     .footer-right-side-social-media-list-link {
         display: flex;
