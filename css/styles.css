@@ -506,6 +506,7 @@ div {
 .projects-btn {
 font-family: 'Roboto', sans-serif;
 background-color: #F5F4FA;
+fill: currentcolor;
 font-weight:500;
 font-size: 16px;
 line-height: 1.62;
@@ -521,6 +522,7 @@ border-radius: 4px;
 .projects-btn:hover,
 .projects-btn:focus {
 background-color:#188CE8;
+color: #FFFFFF;
 }
 .projects {
     display:flex;
@@ -569,4 +571,13 @@ color:var(--secondary-text-color);
 .projects-section{
     padding-bottom:94px ;
     padding-top: 94px;
+}
+.project-item-link {
+display: block;
+transition-property: box-shadow;
+}
+.project-item-link:hover,
+.project-item-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
